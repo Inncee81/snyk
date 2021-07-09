@@ -28,7 +28,7 @@ import {
   UpgradesByAffectedPackage,
 } from './types';
 import { PATH_SEPARATOR } from '../constants';
-import { getSeverityValue } from './get-seveiry-value';
+import { getSeverityValue } from './get-severity-value';
 
 // How many reachable paths to show in the output
 const MAX_REACHABLE_PATHS = 2;

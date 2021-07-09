@@ -28,7 +28,7 @@ import { createSarifOutputForIac } from './iac-output';
 import { isNewVuln, isVulnFixable } from '../vuln-helpers';
 import { jsonStringifyLargeObject } from '../../lib/json';
 import { createSarifOutputForOpenSource } from './open-source-sarif-output';
-import { getSeverityValue } from './get-seveiry-value';
+import { getSeverityValue } from './get-severity-value';
 
 export function formatJsonOutput(jsonData, options: Options) {
   const jsonDataClone = cloneDeep(jsonData);
